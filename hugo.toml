@@ -1,0 +1,36 @@
+baseURL = 'https://janithmalinga.github.io/physics-blog/'
+languageCode = 'en-us'
+title = 'Physics Blog'
+theme = 'PaperMod'
+[pagination]
+  pagerSize = 12
+
+[params]
+  env = 'production'
+  title = 'Physics Blog'
+  description = 'A blog about physics, mathematics, and scientific exploration'
+  keywords = [ 'Physics', 'Mathematics', 'Science', 'Research', 'Education' ]
+  author = 'Janith Malinga'
+  
+
+  [params.homeInfoParams]
+    Title = 'Welcome to Physics Blog'
+    Content = 'A space dedicated to exploring physics, mathematics, and scientific discovery. Join me on this journey through the fascinating world of science.'
+
+
+[menu]
+  [[menu.main]]
+    identifier = 'archives'
+    name = 'Archives'
+    url = '/archives'
+    weight = 10
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Search'
+    url = '/search'
+    weight = 20
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    url = '/tags'
+    weight = 30
