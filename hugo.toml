@@ -1,4 +1,4 @@
-baseURL = 'https://janithmalinga.github.io/physics-blog/'
+baseURL = 'https://physicslk.netlify.app/'
 languageCode = 'en-us'
 title = 'Physics Blog'
 theme = 'PaperMod'
@@ -11,6 +11,10 @@ theme = 'PaperMod'
   description = 'A blog about physics, mathematics, and scientific exploration'
   keywords = [ 'Physics', 'Mathematics', 'Science', 'Research', 'Education' ]
   author = 'Janith Malinga'
+  
+  [params.assets]
+    disableFingerprinting = false
+    disableScrollBarStyle = false
   
 
   [params.homeInfoParams]
