@@ -1,7 +1,9 @@
+# Production configuration (for GitHub Pages)
 baseURL = 'https://janithmalinga.github.io/physics-blog/'
 languageCode = 'en-us'
 title = 'Physics Blog'
 theme = 'PaperMod'
+
 [pagination]
   pagerSize = 12
 
@@ -12,9 +14,6 @@ theme = 'PaperMod'
   keywords = [ 'Physics', 'Mathematics', 'Science', 'Research', 'Education' ]
   author = 'Janith Malinga'
   
-
   [params.homeInfoParams]
     Title = 'Welcome to Physics Blog'
     Content = 'A space dedicated to exploring physics, mathematics, and scientific discovery. Join me on this journey through the fascinating world of science.'
-
-
